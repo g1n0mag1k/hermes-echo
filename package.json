@@ -1,0 +1,20 @@
+{
+  "name": "hermes-echo",
+  "version": "0.1.0",
+  "description": "Discover what your CLI actually does. Catch behavioral changes your tests missed.",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "hermes-echo": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
